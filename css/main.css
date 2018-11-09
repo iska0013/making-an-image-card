@@ -2,13 +2,14 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
 }
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
 .img-flex {
   display: block;
-  width: 100%
+  width: 100%;
 }
 
 .card {
@@ -29,6 +30,7 @@ html {
   left: 0;
   width: 100%;
 }
+
 .card-label {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 4px solid green;
